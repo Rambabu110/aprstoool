@@ -1,0 +1,85 @@
+Created At: 2026-10-01T20:18:56+05:30
+Completed At: 2026-10-01T20:18:58+05:30
+
+				The command exited with code 0.
+				Output:
+				<truncated 1408 lines>
+degradation\r\n\r\nDo not allow one external source failure to crash APRS.\r\n\r\nDo not hammer free 
+APIs.\r\n\r\nCache where architecturally appropriate.\r\n\r\nRespect provider terms and rate 
+limits.\r\n\r\n============================================================\r\nCREDENTIAL 
+SECURITY\r\n===================\r\n\r\nUse environment variables / existing secret management.\r\n\r\nExample variable 
+names:\r\n\r\nTRENDSMCP_API_KEY\r\nSCAVIO_API_KEY\r\nDECODO_API_KEY\r\n\r\nOnly use the exact names required by the 
+respective repository/documentation if different.\r\n\r\nNEVER:\r\n\r\n* hardcode credentials\r\n* commit 
+credentials\r\n* print credentials\r\n* put credentials into screenshots\r\n* write credentials into reports\r\n* echo 
+credentials in terminal output\r\n\r\nIf credentials are 
+missing:\r\n\r\nCLASSIFY:\r\n\r\nREADY_WITH_CREDENTIAL\r\n\r\nDo not ask the user to paste secret values into 
+chat.\r\n\r\n============================================================\r\nDECODO / SCRAPING 
+SOURCES\r\n=========================\r\n\r\nTreat proxy/scraping infrastructure separately from research 
+semantics.\r\n\r\nA proxy is infrastructure.\r\n\r\nIt is not evidence itself.\r\n\r\nDo not create a false claim such 
+as:\r\n\r\n\"proxy data = verified Amazon sales\"\r\n\r\nAny scraped data must retain:\r\n\r\nsource URL\r\nretrieval 
+time\r\nscraping method\r\ndata type\r\nprovenance\r\n\r\nRespect website terms and applicable 
+restrictions.\r\n\r\n============================================================\r\nNIM VS RESEARCH 
+SOURCES\r\n=======================\r\n\r\nDo not confuse NIM with external research evidence.\r\n\r\nNIM:\r\n\r\nAI 
+reasoning / scoring / agent execution\r\n\r\nExternal sources:\r\n\r\nObserved market 
+evidence\r\n\r\nArchitecture:\r\n\r\nExternal Evidence\r\n Evidence Layer\r\n Intelligence\r\n\r\nNIM\r\n reasoning 
+/ classification / synthesis\r\n\r\nNever allow NIM-generated text to masquerade as observed market 
+evidence.\r\n\r\n============================================================\r\nTESTING FOR EVERY 
+SOURCE\r\n========================\r\n\r\nFor each implemented source create tests for:\r\n\r\n1. configuration\r\n2. 
+authentication handling\r\n3. successful response\r\n4. empty response\r\n5. malformed response\r\n6. timeout\r\n7. 
+rate limit\r\n8. provider error\r\n9. normalization\r\n10. provenance\r\n11. duplicate source record\r\n12. 
+idempotency\r\n13. source health\r\n14. conflict handling\r\n\r\nDo not require live credentials for unit 
+tests.\r\n\r\nUse deterministic fixtures/mocks for unit testing.\r\n\r\nDo not insert synthetic/fake evidence into 
+production.\r\n\r\n============================================================\r\nSTAGE 2 EXIT 
+GATE\r\n=================\r\n\r\nBefore declaring implementation complete:\r\n\r\nRun:\r\n\r\n1. full pytest 
+suite\r\n2. source adapter tests\r\n3. Streamlit AppTest\r\n4. navigation test\r\n5. Product Intelligence test\r\n6. 
+database integrity test\r\n7. evidence provenance test\r\n8. conflict detection test\r\n9. source failure/degradation 
+test\r\n10. end-to-end research pipeline test\r\n\r\nVerify:\r\n\r\nSOURCE\r\n EVIDENCE\r\n INTELLIGENCE\r\n 
+SCORE\r\n DECISION\r\n\r\nwithout bypassing 
+provenance.\r\n\r\n============================================================\r\nFINAL FORENSIC REPORT\r\n===========
+==========\r\n\r\nCreate:\r\n\r\nAPRS_FORENSIC_REMEDIATION_2026_10_01/\r\n\r\n01_BASELINE.md\r\n02_CONFIRMED_BUGS.md\r\
+n03_FIXES_APPLIED.md\r\n04_NIM_INVESTIGATION.md\r\n05_KEEPA_BSR_INVESTIGATION.md\r\n06_BROWSER_TIMEOUT_INVESTIGATION.md
+\r\n07_DATA_INTEGRITY_CHECK.md\r\n\r\n08_SOURCE_MATRIX.md\r\n09_API_REQUIREMENTS.md\r\n10_FREE_API_MATRIX.md\r\n11_SOUR
+CE_OVERLAP.md\r\n12_INTEGRATION_STATUS.md\r\n13_DATA_PROVENANCE_AUDIT.md\r\n14_ERROR_HANDLING_AUDIT.md\r\n\r\n15_TEST_R
+ESULTS.md\r\n16_REGRESSION_RESULTS.md\r\n17_END_TO_END_RESULTS.md\r\n18_REMAINING_ISSUES.md\r\n19_FINAL_VERDICT.md\r\n\
+r\n============================================================\r\nFINAL VERDICT 
+FORMAT\r\n====================\r\n\r\nPrint:\r\n\r\nAPRS REMEDIATION + IMPLEMENTATION RESULT\r\n\r\nSTAGE 1 - EXISTING 
+SYSTEM\r\n\r\n## Confirmed bugs:\r\n\r\n## Fixed:\r\n\r\n## Configuration issues:\r\n\r\n## Test-harness 
+issues:\r\n\r\n## Keepa status:\r\n\r\n## NIM status:\r\n\r\n## Data integrity:\r\n\r\n## Tests before:\r\n\r\n## 
+Tests after:\r\n\r\nRegression:\r\nPASS/FAIL\r\n\r\nSTAGE 2 - RESEARCH SOURCES\r\n\r\n## Implemented:\r\n\r\n## Ready 
+with credential:\r\n\r\n## Free limited:\r\n\r\n## Blocked:\r\n\r\n## Duplicate:\r\n\r\n## Not useful:\r\n\r\n## Needs 
+review:\r\n\r\nEvidence pipeline:\r\nPASS/FAIL\r\n\r\nProvenance:\r\nPASS/FAIL\r\n\r\nConflict 
+handling:\r\nPASS/FAIL\r\n\r\nSource failure 
+isolation:\r\nPASS/FAIL\r\n\r\nEnd-to-end:\r\nPASS/FAIL\r\n\r\nNavigation:\r\nX/12\r\n\r\nProduct 
+Intelligence:\r\nX/5\r\n\r\nDatabase:\r\nPASS/FAIL\r\n\r\nGit:\r\nNO COMMIT\r\nNO 
+PUSH\r\n\r\n============================================================\r\nFINAL HARD 
+RULE\r\n===============\r\n\r\nFIX FIRST.\r\n\r\nVERIFY SECOND.\r\n\r\nIMPLEMENT THIRD.\r\n\r\nTEST 
+FOURTH.\r\n\r\nREPORT LAST.\r\n\r\nDo not proceed to Stage 2 if Stage 1 has an unresolved confirmed blocker.\r\n\r\nDo 
+not declare something fixed without a test or direct runtime evidence.\r\n\r\nDo not call something broken without 
+reproducing it or providing repository evidence.\r\n\r\nDo not fabricate data to make an integration appear 
+successful.\r\n\r\nDo not silently alter APRS business logic.\r\n\r\nPreserve the existing V7/V8 
+architecture.\r\n\r\nNO COMMIT.\r\nNO PUSH.\r\n\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 
+2026-10-01T20:07:11+05:30.\n\nThe user's current state is as follows:\nActive Document: 
+d:\\tools\\APRS\\APRS_E2E_AUDIT\\ERRORS.md (LANGUAGE_MARKDOWN)\nCursor is on line: 1\nOther open documents:\n- 
+d:\\tools\\APRS\\APRS_E2E_AUDIT\\ERRORS.md (LANGUAGE_MARKDOWN)\n- 
+d:\\tools\\APRS\\APRS_E2E_AUDIT\\evidence\\check_nav_keys.py (LANGUAGE_PYTHON)\n- 
+d:\\tools\\APRS\\APRS_E2E_AUDIT\\evidence\\comprehensive_browser_audit.py (LANGUAGE_PYTHON)\n- 
+d:\\tools\\APRS\\core\\outcome_adapters\\base.py (LANGUAGE_PYTHON)\n- d:\\tools\\APRS\\core\\observation_scheduler.py 
+(LANGUAGE_PYTHON)\nBrowser State:\n  Page 0AD9C0A6382A15BA09DE61E3A8A8965B (APRS V6 - Autonomous E-Commerce Swarm) - 
+http://localhost:8501/ [ACTIVE]\n    Viewport: 1366x633, Page Height: 633\n</ADDITIONAL_METADATA>"}
+C:\Users\HP\.gemini\antigravity-ide\brain\ec5ff5e7-5df1-42af-b328-53508f1b9a5c\.system_generated\logs\transcript_full.j
+sonl:5119:{"step_index":5137,"source":"USER_EXPLICIT","type":"USER_INPUT","status":"DONE","created_at":"2026-10-01T14:4
+7:20Z","content":"<USER_REQUEST>\ncontinue\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 
+2026-10-01T20:17:20+05:30.\n\nThe user's current state is as follows:\nActive Document: 
+d:\\tools\\APRS\\APRS_FORENSIC_REMEDIATION_2026_10_01\\04_KEEPA_BSR_INVESTIGATION.md (LANGUAGE_MARKDOWN)\nCursor is on 
+line: 1\nOther open documents:\n- d:\\tools\\APRS\\APRS_FORENSIC_REMEDIATION_2026_10_01\\01_CONFIRMED_BUGS.md 
+(LANGUAGE_MARKDOWN)\n- d:\\tools\\APRS\\APRS_FORENSIC_REMEDIATION_2026_10_01\\00_BASELINE.md (LANGUAGE_MARKDOWN)\n- 
+d:\\tools\\APRS\\APRS_E2E_AUDIT\\ERRORS.md (LANGUAGE_MARKDOWN)\n- 
+d:\\tools\\APRS\\tests\\test_daemon_matcher_regression.py (LANGUAGE_PYTHON)\n- 
+d:\\tools\\APRS\\APRS_FORENSIC_REMEDIATION_2026_10_01\\03_NIM_INVESTIGATION.md (LANGUAGE_MARKDOWN)\nBrowser State:\n  
+Page 0AD9C0A6382A15BA09DE61E3A8A8965B (APRS V6 - Autonomous E-Commerce Swarm) - http://localhost:8501/ [ACTIVE]\n    
+Viewport: 1366x633, Page Height: 633\n</ADDITIONAL_METADATA>\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model 
+Selection` from None to Gemini 3.8 Flash (High). No need to comment on this change if the user doesn't ask about it. 
+If reporting what model you are, please use a human readable name instead of the exact 
+string.\n</USER_SETTINGS_CHANGE>"}
+
+

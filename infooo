@@ -1,0 +1,25 @@
+# Supabase Configuration
+# Project URL: https://wlkphjvpvsuqadmyjzdy.supabase.co
+
+SUPABASE_URL=https://wlkphjvpvsuqadmyjzdy.supabase.co
+SUPABASE_ANON_KEY=sb_publishable_TU7vBByTXk9xAE9VWwSPyg_45OI6LhM
+SUPABASE_SERVICE_ROLE_KEY=sb_secret_dER_hcwsPQSaVNL2xrBdTw_1bW8MgTg
+
+# Database Connection (PostgreSQL)
+DATABASE_URL=postgresql://postgres:[YOUR-PASSWORD]@db.wlkphjvpvsuqadmyjzdy.supabase.co:5432/postgres
+
+# Subscription Plans Configuration
+FREE_WEEKLY_LIMIT=3
+FREE_WEEK_START_DAY=0  # Monday
+TIMEZONE=Asia/Kolkata
+
+# Plan Configuration
+PLAN_STARTER_PRICE=149
+PLAN_STARTER_LIMIT=10
+PLAN_PRO_PRICE=299
+PLAN_PRO_LIMIT=50
+PLAN_PREMIUM_PRICE=499
+PLAN_PREMIUM_LIMIT=200
+
+# Currency
+CURRENCY=INR

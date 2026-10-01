@@ -1,0 +1,61 @@
+# APRS V6 Pro - Git Ignore
+
+# Environment & Secrets - INCLUDED (private repo, trusted collaborators only)
+# .env files are intentionally committed
+
+# Virtual Environments (Local runtime binaries - excluded from repo)
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode (Dynamic runtime bytecode - excluded from repo)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.tox/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Browser-use external directory
+browser-use/
+!tools/browser-use/
+
+# Large model weights (if any)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Coverage reports
+htmlcov/
+.coverage.*
+
+# Type checking
+*.pyc
+*.pyo
+*.pyd

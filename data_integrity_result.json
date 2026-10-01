@@ -1,0 +1,7417 @@
+{
+  "master_products_count": 471,
+  "duplicate_names": [
+    {
+      "name": "Amazon Basics Smart A19 LED Light Bulb, Color Changing, 9W (60W Equivalent), 800LM, Works with Alexa Only, 2.4 GHz Wi-Fi",
+      "cnt": 2
+    },
+    {
+      "name": "Borosil Hydra Trek Stainless Steel Water Bottle | Double Wall Vacuum Insulated Flask, Green | 20 Hours Hot & 24 Hours Co",
+      "cnt": 2
+    },
+    {
+      "name": "Govee Smart Light Bulbs, A19 Color Changing Light Bulb, 800 LM, E26 Base",
+      "cnt": 2
+    },
+    {
+      "name": "INOVERA (LABEL) Kitchen Under Sink Organizer - 2 Tier Pull Out Cabinet Storage Shelves - Sliding Rack (Pack 1)",
+      "cnt": 2
+    },
+    {
+      "name": "ISCENT | Ensō Luxury Cold-Air Scent Diffuser – Cordless & Silent Fragrance System for Home or Office – Covers Up to 1000",
+      "cnt": 2
+    },
+    {
+      "name": "Kasa Smart Light Bulbs, Full Color Changing Dimmable Smart WiFi Bulbs Compatible with Alexa and Google Home, A19, 60 W 8",
+      "cnt": 2
+    },
+    {
+      "name": "Kimberly-Clark Professional® Aquarius® Handwash/Foam Soap/Sanitiser Dispenser (69480A)",
+      "cnt": 2
+    },
+    {
+      "name": "Linkind Smart Light Bulbs, Work with Alexa, Google Home, AiDot",
+      "cnt": 2
+    },
+    {
+      "name": "PHILIPS Smart LED Full Color Light Bulb 4-Pack, A19 60W 800LM E26 Indoor, Sunset to Sunrise Automation + Motion Detectio",
+      "cnt": 2
+    },
+    {
+      "name": "Portable Neck Fan that Blow Cold Air, LED Display, Rechargeable Hands-Free Wearable Cooling Personal Fan, 5 Speed, Neck",
+      "cnt": 2
+    },
+    {
+      "name": "Scotch-Brite Twin Bucket Spin Mop with Easy Wring & Rinse System, 360° Adjustable Handle, High Absorbency Microfiber for",
+      "cnt": 2
+    },
+    {
+      "name": "See options",
+      "cnt": 6
+    },
+    {
+      "name": "Sensi Lite Smart Thermostat, WiFi, Alexa, DIY, Energy Star Certified, ST25",
+      "cnt": 2
+    },
+    {
+      "name": "Sensi Lite Smart Thermostat, WiFi, DIY, Alexa, Energy Star Certified, ST25W",
+      "cnt": 2
+    },
+    {
+      "name": "Sensi Touch 2 Smart Thermostat Wi-Fi, Alexa, Energy Star Certified, ST76",
+      "cnt": 2
+    },
+    {
+      "name": "SunTouch SunStat CommandPlus Wi-Fi Thermostat for Floor Heating 4.3\" Screen",
+      "cnt": 2
+    },
+    {
+      "name": "Upgraded 360° Vacuum Magnetic Car Phone Mount, Strong Suction Cup Phone Holder, Hands-Free Mobile Stand for Car Dashboar",
+      "cnt": 2
+    }
+  ],
+  "duplicate_product_ids": [],
+  "product_intelligence_count": 394,
+  "duplicate_intelligence": [],
+  "intelligence_evidence_count": 6988,
+  "duplicate_evidence": [
+    {
+      "product_id": "EU_B0126LMDFK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0126LMDFK",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0126LMDFK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0126LMDFK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0126LMDFK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B01NB1",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B01NB1OB0I",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B01NB1",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B01NB1",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B01NB1",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B075BF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B075BF6V58",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B075BF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B075BF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B075BF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0823FQKH6",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0823FQKH6",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0823FQKH6",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0823FQKH6",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0823FQKH6",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B08FWH238Y",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B08FWH238Y",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B08FWH238Y",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B08FWH238Y",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B08FWH238Y",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B08TB6",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B08TB6VXFL",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B08TB6",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B08TB6",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B08TB6",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B08TB6VXFL",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B08TB6VXFL",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B08TB6VXFL",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B08TB6VXFL",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B08TB6VXFL",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B08TB8Z5HF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B08TB8Z5HF",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B08TB8Z5HF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B08TB8Z5HF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B08TB8Z5HF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B08W5GBCLB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B08W5GBCLB",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B08W5GBCLB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B08W5GBCLB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B08W5GBCLB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B09B7N",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B09B7NQT2K",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B09B7N",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B09B7N",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B09B7N",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B09XXTQPXC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B09XXTQPXC",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B09XXTQPXC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B09XXTQPXC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B09XXTQPXC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0BC8N",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0BC8N7QXN",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BC8N",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BC8N",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BC8N",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BC8N7QXN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0BC8N7QXN",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0BC8N7QXN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0BC8N7QXN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0BC8N7QXN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0BKH7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0BKH7TCSP",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BKH7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BKH7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BKH7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BKH7TCSP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0BKH7TCSP",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0BKH7TCSP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0BKH7TCSP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0BKH7TCSP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0BXZ6",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0BXZ6KXGG",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BXZ6",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BXZ6",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0BXZ6",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0C1Z3H72F",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0C1Z3H72F",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0C1Z3H72F",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0C1Z3H72F",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0C1Z3H72F",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0C8QF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0C8QFM1LT",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0C8QF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0C8QF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0C8QF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0C8QFM1LT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0C8QFM1LT",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0C8QFM1LT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0C8QFM1LT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0C8QFM1LT",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0CG5V",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CG5VZ8KT",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0CG5V",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0CG5V",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0CG5V",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0CG5VZ8KT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CG5VZ8KT",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0CG5VZ8KT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0CG5VZ8KT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0CG5VZ8KT",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0CKM8CF7N",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CKM8CF7N",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CKM8CF7N",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CKM8CF7N",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CKM8CF7N",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CLYQ86CY",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CLYQ86CY",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CLYQ86CY",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CLYQ86CY",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CLYQ86CY",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CPTJ3614",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CPTJ3614",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CPTJ3614",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CPTJ3614",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CPTJ3614",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CVLF43RP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CVLF43RP",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CVLF43RP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CVLF43RP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CVLF43RP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CW1R",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CW1R212H",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0CW1R",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0CW1R",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0CW1R",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0CW1R212H",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CW1R212H",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0CW1R212H",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0CW1R212H",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0CW1R212H",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0CW3RC94X",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CW3RC94X",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CW3RC94X",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CW3RC94X",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0CW3RC94X",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0D96PVGJ5",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0D96PVGJ5",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0D96PVGJ5",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0D96PVGJ5",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0D96PVGJ5",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0DJG5HVBK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DJG5HVBK",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0DJG5HVBK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0DJG5HVBK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0DJG5HVBK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0DKG5",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DKG55VCB",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DKG5",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DKG5",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DKG5",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DMWKLD8H",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DMWKLD8H",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0DMWKLD8H",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0DMWKLD8H",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0DMWKLD8H",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0DSGC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DSGCDMPT",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DSGC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DSGC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DSGC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DT9M",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DT9MC2Z9",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DT9M",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DT9M",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0DT9M",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0F8DYK4RP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0F8DYK4RP",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0F8DYK4RP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0F8DYK4RP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0F8DYK4RP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0FJMS8KCF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FJMS8KCF",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0FJMS8KCF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0FJMS8KCF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0FJMS8KCF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0FRWR7Y6R",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FRWR7Y6R",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0FRWR7Y6R",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0FRWR7Y6R",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0FRWR7Y6R",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0FXN4",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FXN46XRS",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0FXN4",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0FXN4",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0FXN4",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0FXN46XRS",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FXN46XRS",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0FXN46XRS",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0FXN46XRS",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0FXN46XRS",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0FZJ8Y54Q",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FZJ8Y54Q",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0FZJ8Y54Q",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0FZJ8Y54Q",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0FZJ8Y54Q",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0G346",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0G346LFXS",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0G346",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0G346",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0G346",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0GQCTS6PH",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GQCTS6PH",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0GQCTS6PH",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0GQCTS6PH",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0GQCTS6PH",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0GSF52SY1",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GSF52SY1",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0GSF52SY1",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0GSF52SY1",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0GSF52SY1",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0GT6JQWKY",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GT6JQWKY",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0GT6JQWKY",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0GT6JQWKY",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0GT6JQWKY",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "EU_B0GT6W",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GT6WFP4Y",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0GT6W",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0GT6W",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0GT6W",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0GT6WFP4Y",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GT6WFP4Y",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0GT6WFP4Y",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0GT6WFP4Y",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0GT6WFP4Y",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "EU_B0GT7N35QM",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GT7N35QM",
+      "cnt": 2
+    },
+    {
+      "product_id": "EU_B0GT7N35QM",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 2
+    },
+    {
+      "product_id": "EU_B0GT7N35QM",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 2
+    },
+    {
+      "product_id": "EU_B0GT7N35QM",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 2
+    },
+    {
+      "product_id": "EU_B0GVZF5WC7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GVZF5WC7",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0GVZF5WC7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0GVZF5WC7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0GVZF5WC7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0GWTQ8N1T",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GWTQ8N1T",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0GWTQ8N1T",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0GWTQ8N1T",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0GWTQ8N1T",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0GZH9NTYT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GZH9NTYT",
+      "cnt": 2
+    },
+    {
+      "product_id": "EU_B0GZH9NTYT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 2
+    },
+    {
+      "product_id": "EU_B0GZH9NTYT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 2
+    },
+    {
+      "product_id": "EU_B0GZH9NTYT",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 2
+    },
+    {
+      "product_id": "EU_B0H12D",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H12DVVXD",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0H12D",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0H12D",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0H12D",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0H3YYS94C",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H3YYS94C",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0H3YYS94C",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0H3YYS94C",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0H3YYS94C",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "EU_B0HBT9",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0HBT9Q6BX",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0HBT9",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0HBT9",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 11
+    },
+    {
+      "product_id": "EU_B0HBT9",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 11
+    },
+    {
+      "product_id": "GC_B0787GLBMV",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0787GLBMV",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0787GLBMV",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0787GLBMV",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0787GLBMV",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B07N77NM82",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B07N77NM82",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B07N77NM82",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B07N77NM82",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B07N77NM82",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B07VQYX48C",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B07VQYX48C",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B07VQYX48C",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B07VQYX48C",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B07VQYX48C",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B09961TCV4",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B09961TCV4",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B09961TCV4",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B09961TCV4",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B09961TCV4",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B09FH2P52G",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B09FH2P52G",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09FH2P52G",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09FH2P52G",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09FH2P52G",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09YCQTTTG",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B09YCQTTTG",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09YCQTTTG",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09YCQTTTG",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09YCQTTTG",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09YD9KZ15",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B09YD9KZ15",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09YD9KZ15",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09YD9KZ15",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B09YD9KZ15",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0AD01",
+      "signal_type": "DEFECTS",
+      "source": "Customer Review Mining",
+      "cnt": 28
+    },
+    {
+      "product_id": "GC_B0AD01",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/s?k=Luxury+Smart+Electric+Bakhoor+Incense+Burner",
+      "cnt": 28
+    },
+    {
+      "product_id": "GC_B0AD01",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 28
+    },
+    {
+      "product_id": "GC_B0AD01",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 28
+    },
+    {
+      "product_id": "GC_B0AD01",
+      "signal_type": "TREND",
+      "source": "Snapchat UAE & TikTok Saudi Breakouts",
+      "cnt": 28
+    },
+    {
+      "product_id": "GC_B0B1PX5R3G",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0B1PX5R3G",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0B1PX5R3G",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0B1PX5R3G",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0B1PX5R3G",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0B2F2ZZ79",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0B2F2ZZ79",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0B2F2ZZ79",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0B2F2ZZ79",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0B2F2ZZ79",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0B4SQ5LN6",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0B4SQ5LN6",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0B4SQ5LN6",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0B4SQ5LN6",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0B4SQ5LN6",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0B75394CT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0B75394CT",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0B75394CT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0B75394CT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0B75394CT",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0CQM4ZNPZ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0CQM4ZNPZ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0CQM4ZNPZ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0CQM4ZNPZ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0CQM4ZNPZ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0D1TSWCL7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0D1TSWCL7",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0D1TSWCL7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0D1TSWCL7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0D1TSWCL7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0D8TMD1P7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0D8TMD1P7",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0D8TMD1P7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0D8TMD1P7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0D8TMD1P7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DFWBVBFG",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0DFWBVBFG",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DFWBVBFG",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DFWBVBFG",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DFWBVBFG",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DGG7F9CW",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0DGG7F9CW",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DGG7F9CW",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DGG7F9CW",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DGG7F9CW",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0DH8FJT1H",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0DH8FJT1H",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0DH8FJT1H",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0DH8FJT1H",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0DH8FJT1H",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0DHZXBGPQ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0DHZXBGPQ",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0DHZXBGPQ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0DHZXBGPQ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0DHZXBGPQ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0DSJ66YPC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0DSJ66YPC",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B0DSJ66YPC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B0DSJ66YPC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B0DSJ66YPC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B0F5YFH6CB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0F5YFH6CB",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0F5YFH6CB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0F5YFH6CB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0F5YFH6CB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0FBS4L81N",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0FBS4L81N",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0FBS4L81N",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0FBS4L81N",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0FBS4L81N",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0FBS4Y5QQ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0FBS4Y5QQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0FBS4Y5QQ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0FBS4Y5QQ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0FBS4Y5QQ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0GG4PZ9HF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0GG4PZ9HF",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GG4PZ9HF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GG4PZ9HF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GG4PZ9HF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GTY1PCS7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0GTY1PCS7",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GTY1PCS7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GTY1PCS7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GTY1PCS7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GX6R1D3C",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0GX6R1D3C",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0GX6R1D3C",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0GX6R1D3C",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0GX6R1D3C",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 7
+    },
+    {
+      "product_id": "GC_B0GXPJ3MM9",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0GXPJ3MM9",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GXPJ3MM9",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GXPJ3MM9",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0GXPJ3MM9",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0H1HS1LTC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0H1HS1LTC",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B0H1HS1LTC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B0H1HS1LTC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B0H1HS1LTC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "GC_B0H847QQYS",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0H847QQYS",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0H847QQYS",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0H847QQYS",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0H847QQYS",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "GC_B0H849LRQB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0H849LRQB",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0H849LRQB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0H849LRQB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0H849LRQB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "GC_B0HJCTDCQX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.ae/dp/B0HJCTDCQX",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0HJCTDCQX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0HJCTDCQX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "GC_B0HJCTDCQX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B002A8JO1Q",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B002A8JO1Q",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B002A8JO1Q",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B002A8JO1Q",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B002A8JO1Q",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B075F5BB3C",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B075F5BB3C",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B075F5BB3C",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B075F5BB3C",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B075F5BB3C",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07C5PHJQ5",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B07C5PHJQ5",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07C5PHJQ5",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07C5PHJQ5",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07C5PHJQ5",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07DY9CC23",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B07DY9CC23",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07DY9CC23",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07DY9CC23",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07DY9CC23",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07GC5WGJB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B07GC5WGJB",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07GC5WGJB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07GC5WGJB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07GC5WGJB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07H7D4584",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B07H7D4584",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B07H7D4584",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B07H7D4584",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B07H7D4584",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B07LDKFM2Y",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B07LDKFM2Y",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07LDKFM2Y",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07LDKFM2Y",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B07LDKFM2Y",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B083JJHLT4",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B083JJHLT4",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B083JJHLT4",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B083JJHLT4",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B083JJHLT4",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B083PDKJ26",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B083PDKJ26",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B083PDKJ26",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B083PDKJ26",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B083PDKJ26",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08KLT",
+      "signal_type": "DEFECTS",
+      "source": "Customer Review Mining",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B08KLT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/s?k=Solid+Brass+Heavyweight+Safety+Razor+with+20",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B08KLT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B08KLT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B08KLT",
+      "signal_type": "TREND",
+      "source": "Sustainable Grooming Trends & Reddit r/Wetshaving",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B08R2TB2VF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B08R2TB2VF",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08R2TB2VF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08R2TB2VF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08R2TB2VF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08T6Y43LK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B08T6Y43LK",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08T6Y43LK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08T6Y43LK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08T6Y43LK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B08WPWGN8C",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B08WPWGN8C",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B08WPWGN8C",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B08WPWGN8C",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B08WPWGN8C",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B08X7C5VDX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B08X7C5VDX",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B08X7C5VDX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B08X7C5VDX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B08X7C5VDX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B091MP3RZD",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B091MP3RZD",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B091MP3RZD",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B091MP3RZD",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B091MP3RZD",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B095YXYVL9",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B095YXYVL9",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B095YXYVL9",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B095YXYVL9",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B095YXYVL9",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B09R4W8BMB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B09R4W8BMB",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B09R4W8BMB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B09R4W8BMB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B09R4W8BMB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B09XYZ",
+      "signal_type": "DEFECTS",
+      "source": "Customer Review Mining",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B09XYZ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/s?k=Rechargeable+Self-Stirring+Magnetic+Coffee+Mug",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B09XYZ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B09XYZ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B09XYZ",
+      "signal_type": "TREND",
+      "source": "Instagram Reels & TikTok Gadget Breakouts",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B0B54P3N5F",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0B54P3N5F",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0B54P3N5F",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0B54P3N5F",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0B54P3N5F",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0B6TK767D",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0B6TK767D",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0B6TK767D",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0B6TK767D",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0B6TK767D",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0B6VJLX67",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0B6VJLX67",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0B6VJLX67",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0B6VJLX67",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0B6VJLX67",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BFX41ZMN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0BFX41ZMN",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BFX41ZMN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BFX41ZMN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BFX41ZMN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BJB1KH2Z",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0BJB1KH2Z",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BJB1KH2Z",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BJB1KH2Z",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BJB1KH2Z",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BMG5NJ47",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0BMG5NJ47",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BMG5NJ47",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BMG5NJ47",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BMG5NJ47",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0BXLH84BC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0BXLH84BC",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BXLH84BC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BXLH84BC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BXLH84BC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BZHPJRLF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0BZHPJRLF",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BZHPJRLF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BZHPJRLF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BZHPJRLF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BZPC4Q68",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0BZPC4Q68",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BZPC4Q68",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BZPC4Q68",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0BZPC4Q68",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CC9989S3",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0CC9989S3",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0CC9989S3",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0CC9989S3",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0CC9989S3",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0CDX5RK4R",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0CDX5RK4R",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CDX5RK4R",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CDX5RK4R",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CDX5RK4R",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CF1X9YKT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0CF1X9YKT",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CF1X9YKT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CF1X9YKT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CF1X9YKT",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CL39K3WY",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0CL39K3WY",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0CL39K3WY",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0CL39K3WY",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0CL39K3WY",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0CLXY1P3P",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0CLXY1P3P",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CLXY1P3P",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CLXY1P3P",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CLXY1P3P",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CN2LGZ67",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0CN2LGZ67",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CN2LGZ67",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CN2LGZ67",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CN2LGZ67",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CPSK868C",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0CPSK868C",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CPSK868C",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CPSK868C",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CPSK868C",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CZL74S2Z",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0CZL74S2Z",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CZL74S2Z",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CZL74S2Z",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0CZL74S2Z",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0D9BVQRXX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0D9BVQRXX",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0D9BVQRXX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0D9BVQRXX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0D9BVQRXX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0D9XNKD87",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0D9XNKD87",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0D9XNKD87",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0D9XNKD87",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0D9XNKD87",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DB269JKH",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DB269JKH",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0DB269JKH",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0DB269JKH",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0DB269JKH",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0DB9FKZJ5",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DB9FKZJ5",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DB9FKZJ5",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DB9FKZJ5",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DB9FKZJ5",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DBDDD3Z3",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DBDDD3Z3",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DBDDD3Z3",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DBDDD3Z3",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DBDDD3Z3",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DC6K5CTF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DC6K5CTF",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DC6K5CTF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DC6K5CTF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DC6K5CTF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DC7PHQV8",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DC7PHQV8",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DC7PHQV8",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DC7PHQV8",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DC7PHQV8",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DJPBYQ9X",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DJPBYQ9X",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DJPBYQ9X",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DJPBYQ9X",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DJPBYQ9X",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DM243H42",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DM243H42",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DM243H42",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DM243H42",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DM243H42",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DMT9W9JC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DMT9W9JC",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DMT9W9JC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DMT9W9JC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DMT9W9JC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DPX9X4W4",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DPX9X4W4",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DPX9X4W4",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DPX9X4W4",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DPX9X4W4",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DQCDL8JJ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DQCDL8JJ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DQCDL8JJ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DQCDL8JJ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DQCDL8JJ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DTKK24Y8",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DTKK24Y8",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DTKK24Y8",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DTKK24Y8",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DTKK24Y8",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DXCV76QP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DXCV76QP",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DXCV76QP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DXCV76QP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DXCV76QP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0DZ2N2KQP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0DZ2N2KQP",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DZ2N2KQP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DZ2N2KQP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0DZ2N2KQP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F137MWJC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0F137MWJC",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F137MWJC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F137MWJC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F137MWJC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F1TK2P12",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0F1TK2P12",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0F1TK2P12",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0F1TK2P12",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0F1TK2P12",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0F4MVVM6N",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0F4MVVM6N",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F4MVVM6N",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F4MVVM6N",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F4MVVM6N",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0F6NCP4VL",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0F6NCP4VL",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0F6NCP4VL",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0F6NCP4VL",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0F6NCP4VL",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FCSN3CJZ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FCSN3CJZ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FCSN3CJZ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FCSN3CJZ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FCSN3CJZ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FD783YP5",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FD783YP5",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FD783YP5",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FD783YP5",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FD783YP5",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FF375H5M",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FF375H5M",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FF375H5M",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FF375H5M",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FF375H5M",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FGWBM5NX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FGWBM5NX",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FGWBM5NX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FGWBM5NX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FGWBM5NX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FKG7X1LB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FKG7X1LB",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FKG7X1LB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FKG7X1LB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FKG7X1LB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FKHDNRP1",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FKHDNRP1",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FKHDNRP1",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FKHDNRP1",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FKHDNRP1",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FLKDW5PB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FLKDW5PB",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FLKDW5PB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FLKDW5PB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FLKDW5PB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FM3M42XZ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FM3M42XZ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FM3M42XZ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FM3M42XZ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FM3M42XZ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FN9R6GJV",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FN9R6GJV",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0FN9R6GJV",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0FN9R6GJV",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0FN9R6GJV",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0FNN75QTT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FNN75QTT",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FNN75QTT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FNN75QTT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FNN75QTT",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FPC11B8S",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FPC11B8S",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FPC11B8S",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FPC11B8S",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FPC11B8S",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0FRSGYL33",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FRSGYL33",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FRSGYL33",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FRSGYL33",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FRSGYL33",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FS7NDYFK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FS7NDYFK",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FS7NDYFK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FS7NDYFK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FS7NDYFK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FTZHDBQC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FTZHDBQC",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FTZHDBQC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FTZHDBQC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FTZHDBQC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FW4WKL5X",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FW4WKL5X",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FW4WKL5X",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FW4WKL5X",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FW4WKL5X",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FXY79665",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0FXY79665",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FXY79665",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FXY79665",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0FXY79665",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2LJZ6JS",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0G2LJZ6JS",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2LJZ6JS",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2LJZ6JS",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2LJZ6JS",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2SKZG33",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0G2SKZG33",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2SKZG33",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2SKZG33",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2SKZG33",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2X4N8B9",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0G2X4N8B9",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2X4N8B9",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2X4N8B9",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G2X4N8B9",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G4NJY922",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0G4NJY922",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G4NJY922",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G4NJY922",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G4NJY922",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G4W4S2CN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0G4W4S2CN",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G4W4S2CN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G4W4S2CN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G4W4S2CN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0G7HBDWRP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0G7HBDWRP",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0G7HBDWRP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0G7HBDWRP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0G7HBDWRP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GDTMGRWQ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GDTMGRWQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GDTMGRWQ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GDTMGRWQ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GDTMGRWQ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GGRC13YX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GGRC13YX",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GGRC13YX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GGRC13YX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GGRC13YX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GH7VTQ57",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GH7VTQ57",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GH7VTQ57",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GH7VTQ57",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GH7VTQ57",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GHZS529P",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GHZS529P",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GHZS529P",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GHZS529P",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GHZS529P",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GL7Q4CXS",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GL7Q4CXS",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GL7Q4CXS",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GL7Q4CXS",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GL7Q4CXS",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GMJH",
+      "signal_type": "DEFECTS",
+      "source": "Customer Review Mining",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B0GMJH",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/s?k=2-Tier+Sliding+Under+Sink+Cabinet+Storage+Organizer",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B0GMJH",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B0GMJH",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B0GMJH",
+      "signal_type": "TREND",
+      "source": "Google Trends & Instagram Home Hacks",
+      "cnt": 10
+    },
+    {
+      "product_id": "IN_B0GNMPL32L",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GNMPL32L",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GNMPL32L",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GNMPL32L",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GNMPL32L",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GNZZ8VTG",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GNZZ8VTG",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GNZZ8VTG",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GNZZ8VTG",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GNZZ8VTG",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GPW39V7R",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GPW39V7R",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GPW39V7R",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GPW39V7R",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GPW39V7R",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GR1DLVFG",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GR1DLVFG",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GR1DLVFG",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GR1DLVFG",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GR1DLVFG",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GSRQ6GK5",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GSRQ6GK5",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GSRQ6GK5",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GSRQ6GK5",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GSRQ6GK5",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GV7KJ5JX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GV7KJ5JX",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GV7KJ5JX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GV7KJ5JX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GV7KJ5JX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GWLNP2WF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GWLNP2WF",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GWLNP2WF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GWLNP2WF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GWLNP2WF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GWYKWFLN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GWYKWFLN",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GWYKWFLN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GWYKWFLN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GWYKWFLN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0GX1RZRPW",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GX1RZRPW",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GX1RZRPW",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GX1RZRPW",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GX1RZRPW",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GX9M3YF3",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GX9M3YF3",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GX9M3YF3",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GX9M3YF3",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GX9M3YF3",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GXFGYKYN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GXFGYKYN",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GXFGYKYN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GXFGYKYN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GXFGYKYN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0GYD8NDNN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0GYD8NDNN",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0GYD8NDNN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0GYD8NDNN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0GYD8NDNN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "IN_B0H2BF3P2M",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H2BF3P2M",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H2BF3P2M",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H2BF3P2M",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H2BF3P2M",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H2JD9TKR",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H2JD9TKR",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H2JD9TKR",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H2JD9TKR",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H2JD9TKR",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H38Z4CFY",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H38Z4CFY",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H38Z4CFY",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H38Z4CFY",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H38Z4CFY",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H3F5WXX8",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H3F5WXX8",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H3F5WXX8",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H3F5WXX8",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H3F5WXX8",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H3VBBBMS",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H3VBBBMS",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H3VBBBMS",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H3VBBBMS",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H3VBBBMS",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H6K2N9BB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H6K2N9BB",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H6K2N9BB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H6K2N9BB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H6K2N9BB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H6YDR24Z",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H6YDR24Z",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H6YDR24Z",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H6YDR24Z",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H6YDR24Z",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H7J5K15W",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H7J5K15W",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H7J5K15W",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H7J5K15W",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H7J5K15W",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H7PN67YN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H7PN67YN",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H7PN67YN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H7PN67YN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H7PN67YN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H8579WY4",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H8579WY4",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H8579WY4",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H8579WY4",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H8579WY4",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H8GYWGYR",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H8GYWGYR",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H8GYWGYR",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H8GYWGYR",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H8GYWGYR",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0H9SQ3FYM",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0H9SQ3FYM",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H9SQ3FYM",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H9SQ3FYM",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0H9SQ3FYM",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0HB4D1H6Z",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HB4D1H6Z",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HB4D1H6Z",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HB4D1H6Z",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HB4D1H6Z",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HBVTZZ2L",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HBVTZZ2L",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HBVTZZ2L",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HBVTZZ2L",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HBVTZZ2L",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HC44Z5NV",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HC44Z5NV",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HC44Z5NV",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HC44Z5NV",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HC44Z5NV",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HCZM7XH7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HCZM7XH7",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HCZM7XH7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HCZM7XH7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HCZM7XH7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HDSNLWJH",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HDSNLWJH",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HDSNLWJH",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HDSNLWJH",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HDSNLWJH",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HF3ZYYD6",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HF3ZYYD6",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HF3ZYYD6",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HF3ZYYD6",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HF3ZYYD6",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HF8KXG8G",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HF8KXG8G",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0HF8KXG8G",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0HF8KXG8G",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0HF8KXG8G",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0HG75YJXR",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HG75YJXR",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HG75YJXR",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HG75YJXR",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HG75YJXR",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HHFBBZLP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HHFBBZLP",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HHFBBZLP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HHFBBZLP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HHFBBZLP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HHXK1KG3",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HHXK1KG3",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HHXK1KG3",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HHXK1KG3",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HHXK1KG3",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJ5NB6ZX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HJ5NB6ZX",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJ5NB6ZX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJ5NB6ZX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJ5NB6ZX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJ648T2R",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HJ648T2R",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJ648T2R",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJ648T2R",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJ648T2R",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJHL3S8M",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HJHL3S8M",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJHL3S8M",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJHL3S8M",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJHL3S8M",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJW77L7G",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HJW77L7G",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJW77L7G",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJW77L7G",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HJW77L7G",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HK9Y6FL7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HK9Y6FL7",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HK9Y6FL7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HK9Y6FL7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HK9Y6FL7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "IN_B0HKK6WWQD",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.in/dp/B0HKK6WWQD",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0HKK6WWQD",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0HKK6WWQD",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "IN_B0HKK6WWQD",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B00WFZJ7WA",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B00WFZJ7WA",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B00WFZJ7WA",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B00WFZJ7WA",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B00WFZJ7WA",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0D1QMV8KC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B0D1QMV8KC",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0D1QMV8KC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0D1QMV8KC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0D1QMV8KC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0DSGBJ9TP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B0DSGBJ9TP",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0DSGBJ9TP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0DSGBJ9TP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0DSGBJ9TP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0DSGC2SZJ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B0DSGC2SZJ",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0DSGC2SZJ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0DSGC2SZJ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0DSGC2SZJ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0DX1KT33K",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B0DX1KT33K",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0DX1KT33K",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0DX1KT33K",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0DX1KT33K",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0FPM58QTM",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B0FPM58QTM",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0FPM58QTM",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0FPM58QTM",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0FPM58QTM",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "UK_B0GCZFBRSX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B0GCZFBRSX",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0GCZFBRSX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0GCZFBRSX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0GCZFBRSX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0GZPV5PYG",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B0GZPV5PYG",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0GZPV5PYG",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0GZPV5PYG",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0GZPV5PYG",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0HBKQVRFN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/dp/B0HBKQVRFN",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0HBKQVRFN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0HBKQVRFN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0HBKQVRFN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "UK_B0UK01",
+      "signal_type": "DEFECTS",
+      "source": "Customer Review Mining",
+      "cnt": 10
+    },
+    {
+      "product_id": "UK_B0UK01",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.co.uk/s?k=Roll-Up+Over-Sink+Dish+Drying+Rack",
+      "cnt": 10
+    },
+    {
+      "product_id": "UK_B0UK01",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 10
+    },
+    {
+      "product_id": "UK_B0UK01",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 10
+    },
+    {
+      "product_id": "UK_B0UK01",
+      "signal_type": "TREND",
+      "source": "Amazon UK Best Sellers & Pinterest Small Kitchen Hacks",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B00144I3ZU",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B00144I3ZU",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B00144I3ZU",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B00144I3ZU",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B00144I3ZU",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B00EQ1TEGU",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B00EQ1TEGU",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B00EQ1TEGU",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B00EQ1TEGU",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B00EQ1TEGU",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B010Y1U1JO",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B010Y1U1JO",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B010Y1U1JO",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B010Y1U1JO",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B010Y1U1JO",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B01LDHLR0U",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B01LDHLR0U",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B01LDHLR0U",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B01LDHLR0U",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B01LDHLR0U",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B01LMND8N4",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B01LMND8N4",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B01LMND8N4",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B01LMND8N4",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B01LMND8N4",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B07JBHSCKB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B07JBHSCKB",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B07JBHSCKB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B07JBHSCKB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B07JBHSCKB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B07Q8XDQYJ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B07Q8XDQYJ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B07Q8XDQYJ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B07Q8XDQYJ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B07Q8XDQYJ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B07RJVTK31",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B07RJVTK31",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B07RJVTK31",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B07RJVTK31",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B07RJVTK31",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B07V45CWHC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B07V45CWHC",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B07V45CWHC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B07V45CWHC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B07V45CWHC",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B07ZFBBD6J",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B07ZFBBD6J",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B07ZFBBD6J",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B07ZFBBD6J",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B07ZFBBD6J",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08JSRGT6G",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B08JSRGT6G",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08JSRGT6G",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08JSRGT6G",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08JSRGT6G",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08S6RDVXT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B08S6RDVXT",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08S6RDVXT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08S6RDVXT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08S6RDVXT",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B08XYZ",
+      "signal_type": "DEFECTS",
+      "source": "Customer Review Mining",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B08XYZ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/s?k=MagSafe+15W+Qi2+Fast+Wireless+Car+Mount",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B08XYZ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B08XYZ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B08XYZ",
+      "signal_type": "TREND",
+      "source": "TikTok Auto Tech Trends & Amazon Movers and Shakers",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B0967HYR5M",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0967HYR5M",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0967HYR5M",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0967HYR5M",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0967HYR5M",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B098VYV9WP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B098VYV9WP",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B098VYV9WP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B098VYV9WP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B098VYV9WP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B09ABC",
+      "signal_type": "DEFECTS",
+      "source": "Customer Review Mining",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B09ABC",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/s?k=Ultrasonic+Dental+Retainer+%26+Aligner+Cleaning+Pod",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B09ABC",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B09ABC",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B09ABC",
+      "signal_type": "TREND",
+      "source": "TikTok Invisalign Hacks & Reddit r/Invisalign",
+      "cnt": 10
+    },
+    {
+      "product_id": "US_B09MVNBBWK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B09MVNBBWK",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B09MVNBBWK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B09MVNBBWK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B09MVNBBWK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0B7RSV894",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0B7RSV894",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0B7RSV894",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0B7RSV894",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0B7RSV894",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0BD7Z94ZQ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0BD7Z94ZQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0BD7Z94ZQ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0BD7Z94ZQ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0BD7Z94ZQ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C1RQ67PW",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0C1RQ67PW",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C1RQ67PW",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C1RQ67PW",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C1RQ67PW",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C2VZXQYV",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0C2VZXQYV",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C2VZXQYV",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C2VZXQYV",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C2VZXQYV",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C8Y1TSKZ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0C8Y1TSKZ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C8Y1TSKZ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C8Y1TSKZ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0C8Y1TSKZ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CC8DS2S5",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CC8DS2S5",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CC8DS2S5",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CC8DS2S5",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CC8DS2S5",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CDH47BN9",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CDH47BN9",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0CDH47BN9",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0CDH47BN9",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0CDH47BN9",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0CG6V2XGS",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CG6V2XGS",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0CG6V2XGS",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0CG6V2XGS",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0CG6V2XGS",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0CP22DQQS",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CP22DQQS",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CP22DQQS",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CP22DQQS",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CP22DQQS",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CP9BQ7LK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CP9BQ7LK",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0CP9BQ7LK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0CP9BQ7LK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0CP9BQ7LK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0CPDBW579",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CPDBW579",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CPDBW579",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CPDBW579",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CPDBW579",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CQD3K8PJ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CQD3K8PJ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CQD3K8PJ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CQD3K8PJ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CQD3K8PJ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CQPHLQYH",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CQPHLQYH",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CQPHLQYH",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CQPHLQYH",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CQPHLQYH",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0CT5N26Z8",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0CT5N26Z8",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0CT5N26Z8",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0CT5N26Z8",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0CT5N26Z8",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0D442G15L",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0D442G15L",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0D442G15L",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0D442G15L",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0D442G15L",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 9
+    },
+    {
+      "product_id": "US_B0D4PHGPMN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0D4PHGPMN",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D4PHGPMN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D4PHGPMN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D4PHGPMN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D6RQX3XP",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0D6RQX3XP",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D6RQX3XP",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D6RQX3XP",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D6RQX3XP",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D97SFPKK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0D97SFPKK",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D97SFPKK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D97SFPKK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D97SFPKK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0D9L4JP8G",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0D9L4JP8G",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0D9L4JP8G",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0D9L4JP8G",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0D9L4JP8G",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0DBZ1Q4PF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DBZ1Q4PF",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DBZ1Q4PF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DBZ1Q4PF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DBZ1Q4PF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DKDTBBF7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DKDTBBF7",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DKDTBBF7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DKDTBBF7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DKDTBBF7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DP3Q4SVK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DP3Q4SVK",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0DP3Q4SVK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0DP3Q4SVK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0DP3Q4SVK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0DPC1GS6Q",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DPC1GS6Q",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DPC1GS6Q",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DPC1GS6Q",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DPC1GS6Q",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DPFVFQK4",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DPFVFQK4",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DPFVFQK4",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DPFVFQK4",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DPFVFQK4",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DS22C7VM",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DS22C7VM",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DS22C7VM",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DS22C7VM",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DS22C7VM",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DSB66SHZ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DSB66SHZ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DSB66SHZ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DSB66SHZ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DSB66SHZ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DWMHKFLR",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DWMHKFLR",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DWMHKFLR",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DWMHKFLR",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DWMHKFLR",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DYS7TKKM",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DYS7TKKM",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DYS7TKKM",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DYS7TKKM",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DYS7TKKM",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0DYX1VBLV",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0DYX1VBLV",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0DYX1VBLV",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0DYX1VBLV",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0DYX1VBLV",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0F62T34HN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0F62T34HN",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0F62T34HN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0F62T34HN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0F62T34HN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FBRPPT5L",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FBRPPT5L",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FBRPPT5L",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FBRPPT5L",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FBRPPT5L",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FCFN17H2",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FCFN17H2",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FCFN17H2",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FCFN17H2",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FCFN17H2",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FDKTYC1V",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FDKTYC1V",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FDKTYC1V",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FDKTYC1V",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FDKTYC1V",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FFMS6G6X",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FFMS6G6X",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FFMS6G6X",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FFMS6G6X",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FFMS6G6X",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FG4S57BV",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FG4S57BV",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FG4S57BV",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FG4S57BV",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FG4S57BV",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FG7T6SBY",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FG7T6SBY",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FG7T6SBY",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FG7T6SBY",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FG7T6SBY",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FGJ67LKB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FGJ67LKB",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FGJ67LKB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FGJ67LKB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FGJ67LKB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FPCP9ZDQ",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FPCP9ZDQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FPCP9ZDQ",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FPCP9ZDQ",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FPCP9ZDQ",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FTMJ7HXF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FTMJ7HXF",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FTMJ7HXF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FTMJ7HXF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FTMJ7HXF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FY3YN7V2",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FY3YN7V2",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FY3YN7V2",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FY3YN7V2",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FY3YN7V2",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FY41FPB3",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FY41FPB3",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FY41FPB3",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FY41FPB3",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FY41FPB3",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0FZDHWSHK",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FZDHWSHK",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FZDHWSHK",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FZDHWSHK",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FZDHWSHK",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FZWP44NM",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0FZWP44NM",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FZWP44NM",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FZWP44NM",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0FZWP44NM",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0G22LHN9R",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0G22LHN9R",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0G22LHN9R",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0G22LHN9R",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0G22LHN9R",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GK4SQZ2J",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GK4SQZ2J",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GK4SQZ2J",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GK4SQZ2J",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GK4SQZ2J",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GPX349MD",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GPX349MD",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GPX349MD",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GPX349MD",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GPX349MD",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GQ5C21KF",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GQ5C21KF",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GQ5C21KF",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GQ5C21KF",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GQ5C21KF",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GQ5H3KBT",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GQ5H3KBT",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GQ5H3KBT",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GQ5H3KBT",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GQ5H3KBT",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GS3WHY2R",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GS3WHY2R",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GS3WHY2R",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GS3WHY2R",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GS3WHY2R",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GSL219L3",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GSL219L3",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GSL219L3",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GSL219L3",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GSL219L3",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0GTY5VWF8",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GTY5VWF8",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GTY5VWF8",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GTY5VWF8",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GTY5VWF8",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GWFRPPNB",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GWFRPPNB",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GWFRPPNB",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GWFRPPNB",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GWFRPPNB",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GXYVDFZV",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GXYVDFZV",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GXYVDFZV",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GXYVDFZV",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GXYVDFZV",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0GYCM6KD8",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GYCM6KD8",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GYCM6KD8",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GYCM6KD8",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GYCM6KD8",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GYDY8YKY",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GYDY8YKY",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GYDY8YKY",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GYDY8YKY",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GYDY8YKY",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GZW5Z9TN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0GZW5Z9TN",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GZW5Z9TN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GZW5Z9TN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0GZW5Z9TN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4LG3249",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H4LG3249",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4LG3249",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4LG3249",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4LG3249",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4S7BL88",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H4S7BL88",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4S7BL88",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4S7BL88",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4S7BL88",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4Z7Q4VW",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H4Z7Q4VW",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4Z7Q4VW",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4Z7Q4VW",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H4Z7Q4VW",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H6Q8K39Z",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H6Q8K39Z",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H6Q8K39Z",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H6Q8K39Z",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H6Q8K39Z",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H7JJMFF8",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H7JJMFF8",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0H7JJMFF8",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0H7JJMFF8",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0H7JJMFF8",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0H7QWJ2K7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H7QWJ2K7",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0H7QWJ2K7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0H7QWJ2K7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0H7QWJ2K7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 3
+    },
+    {
+      "product_id": "US_B0H7VNJXS4",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H7VNJXS4",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0H7VNJXS4",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0H7VNJXS4",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0H7VNJXS4",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0H9XN6YVN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0H9XN6YVN",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H9XN6YVN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H9XN6YVN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0H9XN6YVN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HC6PXPCX",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0HC6PXPCX",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HC6PXPCX",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HC6PXPCX",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HC6PXPCX",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HD5YWG6N",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0HD5YWG6N",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HD5YWG6N",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HD5YWG6N",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HD5YWG6N",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HFF4VSZN",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0HFF4VSZN",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0HFF4VSZN",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0HFF4VSZN",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0HFF4VSZN",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 8
+    },
+    {
+      "product_id": "US_B0HGXC2J1Y",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0HGXC2J1Y",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HGXC2J1Y",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HGXC2J1Y",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HGXC2J1Y",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HJ5N1KQ7",
+      "signal_type": "DEMAND",
+      "source": "https://www.amazon.com/dp/B0HJ5N1KQ7",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HJ5N1KQ7",
+      "signal_type": "ECONOMICS",
+      "source": "Comprehensive 15-Factor Economics",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HJ5N1KQ7",
+      "signal_type": "SOURCING",
+      "source": "Supplier Catalog / RFQ",
+      "cnt": 5
+    },
+    {
+      "product_id": "US_B0HJ5N1KQ7",
+      "signal_type": "TREND",
+      "source": "Trend Scout / Scraper",
+      "cnt": 5
+    }
+  ],
+  "orphans": {
+    "product_intelligence_orphans": 0,
+    "multi_platform_orphans": 0,
+    "intelligence_evidence_orphans": 0
+  },
+  "null_checks": {
+    "products_null_name": 0,
+    "products_null_planned_msrp": 0,
+    "products_null_status": 0
+  },
+  "table_counts": {
+    "ai_supervisor_logs": 14306,
+    "ai_task_improvements": 0,
+    "arbiter_decision_log": 0,
+    "daily_snapshots": 210,
+    "data_conflicts": 26,
+    "decision_ledger": 0,
+    "defect_clusters": 8,
+    "discovered_sources": 58,
+    "dynamic_niches": 107,
+    "dynamic_seed_keywords": 232,
+    "economics_assessments": 21,
+    "intelligence_evidence": 6988,
+    "intelligence_timeline": 1780,
+    "launchpad_items": 7,
+    "learning_bias_summaries": 0,
+    "learning_recommendations": 0,
+    "marketplace_config": 6,
+    "master_products": 471,
+    "meeting_audit_log": 6,
+    "multi_platform_listings": 65,
+    "negative_findings": 0,
+    "opportunity_alerts": 145,
+    "outcome_corrections_log": 0,
+    "prediction_calibrations": 0,
+    "product_gate_progress": 2826,
+    "product_intelligence": 394,
+    "product_outcomes": 0,
+    "product_suppliers": 472,
+    "product_watchlist": 1,
+    "research_runs": 6,
+    "scraped_listings": 7231,
+    "scraper_validations": 2,
+    "source_health": 11,
+    "swarm_audit_log": 0,
+    "trend_signals": 372,
+    "users": 0
+  }
+}

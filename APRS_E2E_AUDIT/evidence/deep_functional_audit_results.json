@@ -1,0 +1,219 @@
+{
+  "passed": [
+    {
+      "id": "PASS-GATE-001",
+      "name": "Gate 1 Entry Open",
+      "location": "core/database.py:can_enter_gate",
+      "expected": "Gate 1 always returns (True, 'Gate 1 always open')",
+      "actual": "can_enter=True, reason='Gate 1 always open'",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-GATE-002",
+      "name": "Gate 3 & 4 Blocked when Gate 2 Incomplete",
+      "location": "core/database.py:can_enter_gate",
+      "expected": "Gate 3 and 4 return False when Gate 2 is not PASS/OVERRIDDEN",
+      "actual": "Gate 3: False (Gate 2 is PENDING (must be PASS or OVERRIDDEN)), Gate 4: False (Gate 2 is PENDING (must be PASS or OVERRIDDEN))",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-GATE-003",
+      "name": "Gate 3 & 4 Open After Gate 2 PASS",
+      "location": "core/database.py:can_enter_gate",
+      "expected": "Both Gate 3 and Gate 4 can enter once Gate 2 passes",
+      "actual": "can_g3=True, can_g4=True",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-GATE-004",
+      "name": "Gate 5 Dual Prerequisite Enforcement (Gate 3 & 4)",
+      "location": "core/database.py:can_enter_gate",
+      "expected": "Gate 5 requires BOTH Gate 3 and Gate 4 PASS/OVERRIDDEN; blocks on any single failure",
+      "actual": "A (G3 Pass, G4 Pend): False; B (G3 Fail, G4 Pass): False; C (G3 Pass, G4 Pass): True",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-GATE-005",
+      "name": "Gate 6 Launchpad Dependency on Gate 5 War Room",
+      "location": "core/database.py:can_enter_gate",
+      "expected": "Gate 6 requires Gate 5 PASS before entry",
+      "actual": "Pre-G5: False, Post-G5: True",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V7-001",
+      "name": "10-Dimension Scorecard Schema Completeness",
+      "location": "core/intelligence_engine.py",
+      "expected": "All 10 required opportunity dimensions present in output",
+      "actual": "Found all 10 dimensions: ['demand_strength', 'trend_strength', 'competition_pressure', 'customer_pain', 'economic_viability', 'sourcing_feasibility', 'operational_risk', 'market_saturation', 'evidence_quality', 'data_freshness']",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V7-002",
+      "name": "Scorecard Weights Normalized Sum to 1.00",
+      "location": "core/intelligence_engine.py:372",
+      "expected": "Sum of all 10 dimension weights must equal exactly 1.00",
+      "actual": "Sum = 1.0",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V7-003",
+      "name": "Composite Opportunity Score Mathematical Accuracy",
+      "location": "core/intelligence_engine.py:385",
+      "expected": "Composite score matches sum(score * weight) = 54.0",
+      "actual": "Returned = 54.0, Calc = 54.0",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V7-004",
+      "name": "Kill Switch Disproves Unviable Economics",
+      "location": "core/intelligence_engine.py:evaluate_kill_switch",
+      "expected": "Negative contribution margin triggers KILLED verdict",
+      "actual": "Status: KILLED, Reasons: ['Economics Deficit: Base case contribution margin is negative (-350.00).']",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V7-005",
+      "name": "V7.2 Separation: High Score Does Not Prevent Kill Verdict",
+      "location": "core/intelligence_engine.py",
+      "expected": "Opportunity with high demand score is still KILLED if economic kill rule fires",
+      "actual": "Kill Status: KILLED",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V8-001",
+      "name": "Decision Ledger SQLite Immutability Trigger (trg_decision_ledger_immutable)",
+      "location": "data/research_engine.db:trg_decision_ledger_immutable",
+      "expected": "Trigger raises ABORT 'decision_ledger records are immutable and cannot be updated'",
+      "actual": "Update rejected with: decision_ledger records are immutable and cannot be updated",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-SCHED-001",
+      "name": "Observation Window Boundary Computation",
+      "location": "core/observation_scheduler.py:compute_observation_windows",
+      "expected": "DAY_30 window duration is 30 days, due_date is launch + 30 days",
+      "actual": "Window: {'period_type': 'DAY_30', 'period_start': '2026-08-01', 'period_end': '2026-08-30', 'due_date': '2026-08-31', 'duration_days': 30}",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-SCHED-002",
+      "name": "Window Prior to Due Date -> NOT_DUE",
+      "location": "core/observation_scheduler.py:evaluate_window_maturity",
+      "expected": "Returns NOT_DUE when evaluation date < due date",
+      "actual": "Status: NOT_DUE",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-SCHED-003",
+      "name": "Window Within 7-Day Grace Period -> DUE",
+      "location": "core/observation_scheduler.py:evaluate_window_maturity",
+      "expected": "Returns DUE when evaluation date is within grace period of due date",
+      "actual": "Status: DUE",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-SCHED-004",
+      "name": "Window Past 7-Day Grace Period -> OVERDUE",
+      "location": "core/observation_scheduler.py:evaluate_window_maturity",
+      "expected": "Returns OVERDUE when evaluation date exceeds due date + 7 days without observation",
+      "actual": "Status: OVERDUE",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-CSV-001",
+      "name": "Manual CSV Valid Row Parsing & Normalization",
+      "location": "core/outcome_adapters/manual_csv_adapter.py",
+      "expected": "Successfully validates and normalizes standard outcome dictionary",
+      "actual": "Normalized units: 350, revenue: 874650.0",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-CSV-002",
+      "name": "Manual CSV Validation Rejection of Impossible Data",
+      "location": "core/outcome_adapters/manual_csv_adapter.py",
+      "expected": "Rejects impossible data (negative units or invalid bounds)",
+      "actual": "Caught errors: [\"INVALID_NUMERIC_VALUE: Field 'units_sold' cannot be negative (-50).\"]",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-CSV-003",
+      "name": "ManualCsvOutcomeService File-Level Validation & Header Audit",
+      "location": "core/outcome_adapters/manual_csv_adapter.py:validate_file",
+      "expected": "Validates local file headers, safety, and row formats cleanly",
+      "actual": "Summary: total_rows=1, is_valid=False",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V8-PVR-002",
+      "name": "Metric Formatter Handles None/Zero/Positive Gracefully",
+      "location": "core/prediction_reality_report.py:format_metric",
+      "expected": "None returns non-zero default text, zero formatted cleanly, positive formatted with commas",
+      "actual": "None='Not observed', Zero='\u20b90', Val='\u20b912,450'",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V8-LEARN-002",
+      "name": "Learning Engine MBE Formula & OVERPREDICTION Sign Convention",
+      "location": "core/learning_engine.py:calculate_aggregate_bias",
+      "expected": "actual - predicted = -200.0 classified as OVERPREDICTION_BIAS with MAE=200.0",
+      "actual": "Classification: OVERPREDICTION_BIAS, MBE: -200.0, MAE: 200.0",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-V8-LEARN-003",
+      "name": "Learning Engine Parameter Immutability",
+      "location": "core/learning_engine.py",
+      "expected": "Autonomous intelligence weights and kill thresholds remain 100% frozen after learning cycle",
+      "actual": "Verified scoring engine unchanged",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-ECON-001",
+      "name": "Economics Engine MSRP=0 Safe Rejection",
+      "location": "core/economics_engine.py:calculate_scenario",
+      "expected": "MSRP=0 produces status='FAIL' and negative contribution margin without ZeroDivisionError",
+      "actual": "Status: FAIL, CM: -277.23",
+      "evidence": ""
+    },
+    {
+      "id": "PASS-ECON-003",
+      "name": "Economics Engine Handles 8-Figure Values Without Overflow",
+      "location": "core/economics_engine.py:calculate_scenario",
+      "expected": "Successfully computes 8-figure enterprise supply chain numbers",
+      "actual": "CM: 3375690.99, Net Margin: 33.76%",
+      "evidence": ""
+    }
+  ],
+  "errors": [
+    {
+      "id": "ERR-ECON-002",
+      "name": "Economics Engine Accepted Negative FOB Cost Without Clamping or Error",
+      "location": "core/economics_engine.py:calculate_scenario",
+      "severity": "MEDIUM",
+      "expected": "Negative FOB cost should be rejected or clamped to 0",
+      "actual": "Calculated with FOB=-200.0",
+      "root_cause": "",
+      "evidence": ""
+    }
+  ],
+  "expected_empty": [
+    {
+      "id": "EMPTY-V8-PVR-001",
+      "name": "Production Database Prediction vs Reality Empty State",
+      "location": "core/prediction_reality_report.py:get_portfolio_summary",
+      "expected": "Zero decisions, outcomes, and calibrations returned without fabrication",
+      "actual": "Summary: decisions=0, outcomes=0, calibrations=0",
+      "evidence": ""
+    },
+    {
+      "id": "EMPTY-V8-LEARN-001",
+      "name": "Learning Engine Production Empty State",
+      "location": "core/learning_engine.py:get_portfolio_learning_summary",
+      "expected": "Returns evidence_status='NO_OBSERVATION_DATA' when 0 calibrations exist",
+      "actual": "Status: NO_OBSERVATION_DATA",
+      "evidence": ""
+    }
+  ],
+  "partial": []
+}
