@@ -36,11 +36,16 @@ class EvidenceNormalizer:
         retrieval_method: str = "API_REST",
         adapter_version: str = "1.0.0",
         schema_version: str = "1.0.0",
-        claimed_evidence_type: Optional[EvidenceType] = None
+        claimed_evidence_type: Optional[EvidenceType] = None,
+        provenance_type: Optional[str] = None,
+        validation_result: str = "VALID",
+        execution_status: str = "SUCCESS",
+        dedup_id: Optional[str] = None
     ) -> NormalizedEvidence:
         """
         Builds a verified NormalizedEvidence instance with strict anti-hallucination guardrails.
         """
+        import os
         now_utc = datetime.datetime.now(datetime.timezone.utc).isoformat()
         obs_time = observed_at or now_utc
 
@@ -56,6 +61,17 @@ class EvidenceNormalizer:
         # Ensure unit is clean
         clean_unit = str(unit).strip().lower()
 
+        # Deterministic provenance classification
+        if provenance_type is None:
+            if os.getenv("APRS_RESEARCH_MOCK") == "1" or "MOCK" in retrieval_method.upper() or "SYNTHETIC" in retrieval_method.upper():
+                prov_classification = "MOCK"
+            elif retrieval_method in ("COMPOSITE_SYNTHESIS", "VELOCITY_ANALYSIS", "SERP_ANALYSIS"):
+                prov_classification = "UNVERIFIED"
+            else:
+                prov_classification = "LIVE_VERIFIED"
+        else:
+            prov_classification = provenance_type
+
         # Build provenance
         prov = ProvenanceTracker.create_provenance(
             source_name=source_name,
@@ -63,7 +79,11 @@ class EvidenceNormalizer:
             source_url=source_url,
             raw_payload=raw_payload,
             adapter_version=adapter_version,
-            schema_version=schema_version
+            schema_version=schema_version,
+            provenance_type=prov_classification,
+            execution_status=execution_status,
+            validation_result=validation_result,
+            dedup_id=dedup_id
         )
 
         # Deterministic record ID

@@ -279,6 +279,9 @@ class OutcomeIngestionService:
                 calculation_version=calculation_version
             )
 
+        calibrated = bool(calibration_res and calibration_res.get("status") == "SUCCESS")
+        calib_id = calibration_res.get("calibration_id") if calibration_res else None
+
         return {
             "outcome_id": outcome_id,
             "status": status,
@@ -289,6 +292,8 @@ class OutcomeIngestionService:
             "period_end": enriched["period_end"],
             "derived_fields": derived_fields,
             "calibration": calibration_res,
+            "calibrated": calibrated,
+            "calibration_id": calib_id,
             "ingested_at": datetime.datetime.now().isoformat()
         }
 

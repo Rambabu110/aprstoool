@@ -74,12 +74,14 @@ class ProductEvaluationModel(BaseModel):
     ai_rejection_category: Optional[str] = None
     ai_confidence: float = 0.0
 
+
 # -------------------------------------------------------------
 # DATABASE CONNECTION (WAL MODE & BUSY TIMEOUT)
 # -------------------------------------------------------------
-def get_connection() -> sqlite3.Connection:
+def get_connection(db_path: Optional[Any] = None) -> sqlite3.Connection:
     """Returns connection with WAL mode, busy timeout, and foreign keys ON."""
-    conn = sqlite3.connect(str(get_db_path()), timeout=5.0)
+    target = Path(db_path) if db_path else get_db_path()
+    conn = sqlite3.connect(str(target), timeout=5.0)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL;")
     conn.execute("PRAGMA busy_timeout=5000;")

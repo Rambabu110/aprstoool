@@ -6,6 +6,7 @@ and failure isolation for all 11 research adapters in APRS.
 """
 
 from typing import Dict, List, Optional, Tuple, Set, Any
+import os
 import sqlite3
 import datetime
 import json
@@ -37,6 +38,15 @@ from core.research_sources.trendwatch import TrendWatchAdapter
 from core.research_sources.tiktok import TikTokResearchAdapter
 from core.research_sources.rivalsearch import RivalSearchAdapter
 from core.research_sources.trendscope import TrendScopeAdapter
+from core.research_sources.amazon_adapter import AmazonResearchAdapter
+from core.research_sources.observation import (
+    CanonicalObservation,
+    SourceStatus,
+    SourceExecutionResult,
+    ObservationIngestionResult
+)
+from core.research_sources.ingestion_service import ObservationIngestionService
+from core.research_sources.diff_engine import ObservationDiffEngine, ObservationDiffReport
 
 
 class ResearchSourceRegistry:
@@ -93,7 +103,7 @@ class ResearchSourceRegistry:
         Synchronizes operational health metrics to the SQLite source_health table.
         Truthfully records whether a source was probed/healthy. Never fabricates last_successful_fetch.
         """
-        target_path = db_path or "data/research_engine.db"
+        target_path = db_path or os.getenv("APRS_DB_PATH") or "data/research_engine.db"
         health_map = self.get_all_health()
         now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
@@ -126,6 +136,7 @@ class ResearchSourceRegistry:
                     h.average_latency_ms,
                     json.dumps({
                         "status_message": h.status_message,
+                        "status": getattr(h, "status", freshness),
                         "records_total": h.records_collected_total,
                         "last_error": h.last_error
                     }),
@@ -182,7 +193,7 @@ class ResearchSourceRegistry:
         if not evidence_list:
             return []
 
-        target_path = db_path or "data/research_engine.db"
+        target_path = db_path or os.getenv("APRS_DB_PATH") or "data/research_engine.db"
         inserted_ids: List[int] = []
 
         try:
@@ -272,7 +283,7 @@ class ResearchSourceRegistry:
         from core.database import start_research_run, complete_research_run
 
         t0 = time.time()
-        target_path = db_path or "data/research_engine.db"
+        target_path = db_path or os.getenv("APRS_DB_PATH") or "data/research_engine.db"
         run_id = start_research_run()
 
         evidence, conflicts = self.fetch_phase2a_signals(query=query, geo=geo, limit_per_source=limit_per_source)
@@ -356,4 +367,88 @@ class ResearchSourceRegistry:
         # Detect conflicts across gathered evidence
         conflicts = EvidenceNormalizer.detect_conflicts(all_evidence)
         return all_evidence, conflicts
+
+    def execute_observation_pipeline(
+        self,
+        query: str,
+        product_id: Optional[str] = None,
+        sources: Optional[List[str]] = None,
+        marketplace: str = "amazon.in",
+        db_path: Optional[str] = None,
+        run_diff: bool = True
+    ) -> Dict[str, Any]:
+        """
+        Executes the Phase 6 Observation Pipeline:
+        SOURCE -> FETCH -> VALIDATE -> NORMALIZE -> PROVENANCE -> DEDUPLICATE -> STORE -> DIFF
+        
+        Only invokes verified live-capable sources (default: google_trends, gdelt).
+        Does NOT invoke unverified or unconfigured scrapers unless explicitly requested.
+        """
+        target_path = db_path or os.getenv("APRS_DB_PATH") or "data/research_engine.db"
+        selected_sources = sources or ["google_trends", "gdelt"]
+        ingestion_service = ObservationIngestionService()
+
+        all_observations: List[CanonicalObservation] = []
+        source_results: Dict[str, SourceExecutionResult] = {}
+        ingestion_results: List[ObservationIngestionResult] = []
+        diff_reports: List[ObservationDiffReport] = []
+
+        for src_name in selected_sources:
+            adapter = self._adapters.get(src_name)
+            if not adapter and src_name == "amazon_scraper":
+                adapter = AmazonResearchAdapter()
+            if not adapter:
+                source_results[src_name] = SourceExecutionResult(
+                    source_id=src_name,
+                    status=SourceStatus.UNCONFIGURED,
+                    started_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                    completed_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                    duration_ms=0.0,
+                    error_type="UNKNOWN_SOURCE",
+                    error_message=f"Source adapter '{src_name}' is not registered."
+                )
+                continue
+
+            # Execute fetch via canonical contract
+            exec_res = adapter.fetch_canonical_observations(
+                query=query,
+                limit=5,
+                product_id=product_id,
+                marketplace=marketplace
+            )
+            source_results[src_name] = exec_res
+
+            for obs in exec_res.observations:
+                all_observations.append(obs)
+                ing_res, diff_rep = ingestion_service.ingest_observation(
+                    obs,
+                    db_path=target_path,
+                    run_diff=run_diff
+                )
+                ingestion_results.append(ing_res)
+                if diff_rep:
+                    diff_reports.append(diff_rep)
+
+        # Check if any material change requires downstream intelligence refresh
+        requires_refresh = any(r.requires_intelligence_refresh for r in diff_reports)
+
+        # Sync truthful health state to database
+        self.sync_health_to_db(target_path)
+
+        return {
+            "query": query,
+            "product_id": product_id,
+            "sources_attempted": selected_sources,
+            "observations_count": len(all_observations),
+            "ingestion_summary": {
+                "accepted": sum(1 for r in ingestion_results if r.status == "ACCEPTED"),
+                "duplicate": sum(1 for r in ingestion_results if r.status == "DUPLICATE"),
+                "rejected": sum(1 for r in ingestion_results if r.status == "REJECTED"),
+                "error": sum(1 for r in ingestion_results if r.status == "ERROR")
+            },
+            "source_results": {k: v.model_dump() for k, v in source_results.items()},
+            "ingestion_results": [r.model_dump() for r in ingestion_results],
+            "diff_reports": [d.model_dump() for d in diff_reports],
+            "requires_intelligence_refresh": requires_refresh
+        }
 

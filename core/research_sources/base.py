@@ -53,12 +53,13 @@ class SignalType(str, Enum):
 class SourceHealth(BaseModel):
     """Tracks provider operational status, degradation, and latency."""
     source_name: str
-    is_healthy: bool = True
+    is_healthy: bool = False
+    status: str = "UNINITIALIZED"
     last_successful_run: Optional[str] = None
     records_collected_total: int = 0
     consecutive_errors: int = 0
     average_latency_ms: float = 0.0
-    status_message: str = "ONLINE"
+    status_message: str = "UNINITIALIZED"
     rate_limit_remaining: Optional[int] = None
     last_error: Optional[str] = None
 
@@ -186,6 +187,11 @@ class BaseResearchSourceAdapter:
         """Determines if the adapter has valid credentials / network access."""
         return True
 
+    @property
+    def is_mock(self) -> bool:
+        """Determines if the adapter produces mock/stub data."""
+        return self.source_name.lower() in ("tiktok", "rivalsearch", "trendscope", "trendwatch")
+
     def record_success(self, count: int, latency_ms: float):
         with self._lock:
             self.records_collected_total += count
@@ -207,36 +213,42 @@ class BaseResearchSourceAdapter:
             
             if not self.is_available():
                 is_healthy = False
-                status_msg = "UNAVAILABLE (Missing Credential)"
+                source_status = "UNCONFIGURED"
+                status_msg = "UNCONFIGURED (Missing Credential or Proxy)"
             elif self.last_successful_run is None:
                 # Never had a verified successful live run
+                is_healthy = False
                 if self.consecutive_errors > 0:
-                    is_healthy = False
+                    source_status = "FAILED"
                     if self.last_error and "rate_limited" in self.last_error.lower():
                         status_msg = "RATE_LIMITED"
                     elif self.last_error and "timeout" in self.last_error.lower():
                         status_msg = "TIMEOUT"
                     else:
-                        status_msg = f"DEGRADED ({self.consecutive_errors} errors)"
+                        status_msg = f"FAILED ({self.consecutive_errors} errors before any success)"
                 else:
-                    is_healthy = False
+                    source_status = "UNINITIALIZED"
                     status_msg = "INITIALIZED (UNPROBED)"
             elif self.consecutive_errors >= 5:
                 is_healthy = False
+                source_status = "FAILED"
                 status_msg = f"OFFLINE ({self.consecutive_errors} consecutive errors)"
             elif self.consecutive_errors > 0:
                 is_healthy = True
+                source_status = "DEGRADED"
                 if self.last_error and "rate_limited" in self.last_error.lower():
                     status_msg = "RATE_LIMITED"
                 else:
                     status_msg = f"DEGRADED ({self.consecutive_errors} errors)"
             else:
                 is_healthy = True
+                source_status = "HEALTHY"
                 status_msg = "ONLINE"
 
             return SourceHealth(
                 source_name=self.source_name,
                 is_healthy=is_healthy,
+                status=source_status,
                 last_successful_run=self.last_successful_run,
                 records_collected_total=self.records_collected_total,
                 consecutive_errors=self.consecutive_errors,
@@ -264,6 +276,64 @@ class BaseResearchSourceAdapter:
         except Exception as exc:
             self.record_error(str(exc))
             return []
+
+    def fetch_canonical_observations(self, query: str, limit: int = 10, **kwargs) -> Any:
+        """
+        Executes fetch and returns a structured SourceExecutionResult containing
+        canonical observations for the safe ingestion pipeline.
+        """
+        from core.research_sources.observation import (
+            CanonicalObservation,
+            SourceStatus,
+            SourceExecutionResult
+        )
+        started_at = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        start_ts = time.time()
+
+        if not self.is_available():
+            completed_at = datetime.datetime.now(datetime.timezone.utc).isoformat()
+            return SourceExecutionResult(
+                source_id=self.source_name,
+                status=SourceStatus.UNCONFIGURED,
+                started_at=started_at,
+                completed_at=completed_at,
+                duration_ms=0.0,
+                records_received=0,
+                error_type="UNCONFIGURED",
+                error_message="Provider unconfigured or missing credentials/proxy"
+            )
+
+        evidence_list = self.fetch_signals(query, limit=limit, **kwargs)
+        duration_ms = (time.time() - start_ts) * 1000.0
+        completed_at = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+        observations = [
+            CanonicalObservation.from_normalized_evidence(
+                ev,
+                product_id=kwargs.get("product_id"),
+                marketplace=kwargs.get("marketplace"),
+                currency=kwargs.get("currency")
+            )
+            for ev in evidence_list
+        ]
+
+        h = self.health_check()
+        try:
+            exec_status = SourceStatus(h.status)
+        except (ValueError, KeyError):
+            exec_status = SourceStatus.HEALTHY if h.is_healthy else SourceStatus.DEGRADED
+
+        return SourceExecutionResult(
+            source_id=self.source_name,
+            status=exec_status,
+            started_at=started_at,
+            completed_at=completed_at,
+            duration_ms=round(duration_ms, 2),
+            records_received=len(observations),
+            observations=observations,
+            error_type="SOURCE_ERROR" if self.last_error else None,
+            error_message=self.last_error
+        )
 
     def _do_fetch_signals(self, query: str, limit: int, **kwargs) -> List[NormalizedEvidence]:
         """Subclasses implement specific provider logic here."""

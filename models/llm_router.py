@@ -33,6 +33,7 @@ logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(name)s %(levelna
 
 class LLMProvider(str, Enum):
     NIM = "nim"
+    GEMINI = "gemini"
     OLLAMA = "ollama"
     LLAMACPP = "llamacpp"
 
@@ -61,25 +62,26 @@ class LLMResponse:
 class LLMRouter:
     """
     Unified LLM router with priority failover:
-    - NIM (primary): 3-key cluster with LRU cache
-    - Ollama (fallback): Local models for high-volume stages
-    - Arbiter stage: NIM ONLY (no fallback for final verdict)
+    - NIM Nemotron (primary): 3-key cluster with LRU cache
+    - Google Gemini (fallback): Automated failover on NIM exhaustion or failure
+    - Ollama/llamacpp: Dormant/optional local models
     """
 
-    # Task → Provider priority (NIM only)
+    # Task → Provider priority (NIM primary, Gemini fallback)
     DEFAULT_ROUTING = {
-        LLMTaskType.SCOUT:        [LLMProvider.NIM],
-        LLMTaskType.HARVESTER:    [LLMProvider.NIM],
-        LLMTaskType.DEFECT_MINER: [LLMProvider.NIM],
-        LLMTaskType.ECONOMICS:    [LLMProvider.NIM],
-        LLMTaskType.ARBITER:      [LLMProvider.NIM],
-        LLMTaskType.GENERAL:      [LLMProvider.NIM],
+        LLMTaskType.SCOUT:        [LLMProvider.NIM, LLMProvider.GEMINI],
+        LLMTaskType.HARVESTER:    [LLMProvider.NIM, LLMProvider.GEMINI],
+        LLMTaskType.DEFECT_MINER: [LLMProvider.NIM, LLMProvider.GEMINI],
+        LLMTaskType.ECONOMICS:    [LLMProvider.NIM, LLMProvider.GEMINI],
+        LLMTaskType.ARBITER:      [LLMProvider.NIM, LLMProvider.GEMINI],
+        LLMTaskType.GENERAL:      [LLMProvider.NIM, LLMProvider.GEMINI],
     }
 
     def __init__(self):
         self.nim_cluster = SupremeNIMCluster()
         self.ollama_client = None
         self.ollama_model = None
+        self.gemini_client = None
         self._init_local()
         self._load_routing_config()
 
@@ -87,10 +89,13 @@ class LLMRouter:
         self.metrics = {
             "nim_calls": 0,
             "nim_failures": 0,
+            "gemini_calls": 0,
+            "gemini_failures": 0,
             "ollama_calls": 0,
             "ollama_failures": 0,
             "fallback_triggered": 0,
         }
+
 
     def _load_routing_config(self):
         """Load routing from environment or use defaults."""
@@ -146,18 +151,91 @@ class LLMRouter:
             try:
                 if provider == LLMProvider.NIM:
                     return await self._query_nim(prompt, task_type, system_prompt, temperature, max_tokens, force_json)
+                elif provider == LLMProvider.GEMINI:
+                    self.metrics["fallback_triggered"] += 1
+                    return await self._query_gemini(prompt, task_type, system_prompt, temperature, max_tokens, force_json)
                 elif provider == LLMProvider.OLLAMA:
                     return await self._query_ollama(prompt, system_prompt, temperature, max_tokens, force_json)
             except Exception as e:
                 logger.warning(f"{provider.value} failed for {task_type.value}: {e}")
                 if provider == LLMProvider.NIM:
                     self.metrics["nim_failures"] += 1
+                elif provider == LLMProvider.GEMINI:
+                    self.metrics["gemini_failures"] += 1
                 elif provider == LLMProvider.OLLAMA:
                     self.metrics["ollama_failures"] += 1
                 continue
 
         # All providers exhausted
         raise RuntimeError(f"All LLM providers exhausted for task_type={task_type.value}")
+
+    async def _query_gemini(
+        self,
+        prompt: str,
+        task_type: LLMTaskType,
+        system_prompt: str,
+        temperature: float,
+        max_tokens: int,
+        force_json: bool
+    ) -> LLMResponse:
+        """Query Google Gemini fallback when NIM is exhausted or unavailable."""
+        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or ""
+        if not api_key:
+            raise RuntimeError("Google Gemini API key not configured (GEMINI_API_KEY / GOOGLE_API_KEY is empty).")
+
+        start = time.time()
+        model_name = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+
+        gemini_client = getattr(self, "gemini_client", None)
+        loop = asyncio.get_event_loop()
+
+        def _call():
+            if gemini_client is not None:
+                res = gemini_client.generate_content(prompt=prompt, system_instruction=system_prompt)
+                return getattr(res, "text", str(res))
+
+            try:
+                from google import genai
+                client = genai.Client(api_key=api_key)
+                cfg = {}
+                if temperature is not None:
+                    cfg["temperature"] = temperature
+                if max_tokens:
+                    cfg["max_output_tokens"] = max_tokens
+                if system_prompt:
+                    cfg["system_instruction"] = system_prompt
+                if force_json:
+                    cfg["response_mime_type"] = "application/json"
+
+                resp = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                    config=cfg or None
+                )
+                return resp.text
+            except ImportError:
+                import google.generativeai as genai_legacy
+                genai_legacy.configure(api_key=api_key)
+                model = genai_legacy.GenerativeModel(model_name)
+                resp = model.generate_content(prompt)
+                return resp.text
+
+        content = await loop.run_in_executor(None, _call)
+        if not content or not str(content).strip():
+            raise RuntimeError("Empty response received from Google Gemini fallback.")
+
+        latency_ms = int((time.time() - start) * 1000)
+        self.metrics["gemini_calls"] += 1
+
+        return LLMResponse(
+            content=str(content).strip(),
+            provider=LLMProvider.GEMINI,
+            model=model_name,
+            latency_ms=latency_ms,
+            cached=False,
+            usage={"provider": "gemini", "model": model_name}
+        )
+
 
     async def _query_nim(
         self,

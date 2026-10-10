@@ -43,6 +43,10 @@ class AmazonIndiaAdapter(BaseResearchSourceAdapter):
         self.proxy_host = os.getenv("DECODO_PROXY_HOST", "proxy.decodo.io").strip()
         self.proxy_port = os.getenv("DECODO_PROXY_PORT", "8080").strip()
 
+    def is_available(self) -> bool:
+        """Available for live scrape only when Decodo proxy credentials exist, or in explicit test mode."""
+        return bool(self.proxy_auth or os.getenv("APRS_RESEARCH_MOCK") == "1")
+
     def _get_proxies(self) -> Optional[Dict[str, str]]:
         """Constructs proxy dictionary if Decodo credentials are present."""
         if self.use_proxy and self.proxy_auth:
@@ -106,38 +110,44 @@ class AmazonIndiaAdapter(BaseResearchSourceAdapter):
 
         try:
             resp = requests.get(target_url, headers=headers, proxies=proxies, timeout=self.timeout_seconds)
-            if resp.status_code == 200:
-                soup = BeautifulSoup(resp.text, "html.parser")
-                product_cards = soup.select('div[data-component-type="s-search-result"]')
+            if resp.status_code == 429:
+                raise RuntimeError("RATE_LIMITED: Amazon India returned status 429")
+            elif resp.status_code in (401, 403):
+                raise RuntimeError(f"BOT_DETECTION_BLOCKED: Amazon India returned status {resp.status_code}")
+            elif resp.status_code != 200:
+                raise RuntimeError(f"HTTP_ERROR: Amazon India request failed with status {resp.status_code}")
+
+            soup = BeautifulSoup(resp.text, "html.parser")
+            product_cards = soup.select('div[data-component-type="s-search-result"]')
+            
+            for card in product_cards[:limit]:
+                title_elem = card.select_one("h2 a span")
+                price_elem = card.select_one(".a-price-whole")
+                rating_elem = card.select_one(".a-icon-alt")
                 
-                for card in product_cards[:limit]:
-                    title_elem = card.select_one("h2 a span")
-                    price_elem = card.select_one(".a-price-whole")
-                    rating_elem = card.select_one(".a-icon-alt")
+                if not title_elem:
+                    continue
                     
-                    if not title_elem:
-                        continue
-                        
-                    title = title_elem.get_text(strip=True)
-                    price_str = price_elem.get_text(strip=True).replace(",", "") if price_elem else "0"
-                    try:
-                        price_val = float(price_str)
-                    except ValueError:
-                        price_val = 0.0
-                    
-                    ev = EvidenceNormalizer.normalize_record(
-                        source_name="amazon_india",
-                        source_type="SCRAPER",
-                        entity=title,
-                        signal_type=SignalType.PRICE,
-                        value=price_val,
-                        unit="INR",
-                        confidence=0.85,
-                        source_url=target_url,
-                        retrieval_method="SCRAPER_PROXY" if proxies else "SCRAPER_DIRECT",
-                        claimed_evidence_type=EvidenceType.OBSERVED_SIGNAL
-                    )
-                    results.append(ev)
+                title = title_elem.get_text(strip=True)
+                price_str = price_elem.get_text(strip=True).replace(",", "") if price_elem else "0"
+                try:
+                    price_val = float(price_str)
+                except ValueError:
+                    price_val = 0.0
+                
+                ev = EvidenceNormalizer.normalize_record(
+                    source_name="amazon_india",
+                    source_type="SCRAPER",
+                    entity=title,
+                    signal_type=SignalType.PRICE,
+                    value=price_val,
+                    unit="INR",
+                    confidence=0.85,
+                    source_url=target_url,
+                    retrieval_method="SCRAPER_PROXY" if proxies else "SCRAPER_DIRECT",
+                    claimed_evidence_type=EvidenceType.OBSERVED_SIGNAL
+                )
+                results.append(ev)
         except Exception as e:
             # Propagate to base retry/error tracker
             raise e

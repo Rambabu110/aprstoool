@@ -896,27 +896,32 @@ class TestProductionDBInvariants:
     def test_production_db_has_learning_tables(self):
         """Both new Phase 7 tables must exist in production DB after init_db()."""
         import os as _os
+        import tempfile
+        import shutil
         prod_db = _os.path.join(str(PROJECT_ROOT), "data", "research_engine.db")
         if not _os.path.exists(prod_db):
             pytest.skip("Production DB not found")
-        # init_db() reads APRS_DB_PATH; temporarily point it at prod DB
-        old_val = _os.environ.get("APRS_DB_PATH")
-        _os.environ["APRS_DB_PATH"] = prod_db
-        try:
-            from core.database import init_db
-            init_db()
-        finally:
-            if old_val is None:
-                _os.environ.pop("APRS_DB_PATH", None)
-            else:
-                _os.environ["APRS_DB_PATH"] = old_val
-        conn = sqlite3.connect(prod_db)
-        cur = conn.cursor()
-        cur.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")
-        tables = [r[0] for r in cur.fetchall()]
-        conn.close()
-        assert "learning_bias_summaries" in tables, "learning_bias_summaries table missing"
-        assert "learning_recommendations" in tables, "learning_recommendations table missing"
+        # Isolate so init_db() does NOT write to the production DB
+        with tempfile.TemporaryDirectory() as tmpdir:
+            temp_db = _os.path.join(tmpdir, "isolated_prod_copy.db")
+            shutil.copy2(prod_db, temp_db)
+            old_val = _os.environ.get("APRS_DB_PATH")
+            _os.environ["APRS_DB_PATH"] = temp_db
+            try:
+                from core.database import init_db
+                init_db()
+            finally:
+                if old_val is None:
+                    _os.environ.pop("APRS_DB_PATH", None)
+                else:
+                    _os.environ["APRS_DB_PATH"] = old_val
+            conn = sqlite3.connect(temp_db)
+            cur = conn.cursor()
+            cur.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")
+            tables = [r[0] for r in cur.fetchall()]
+            conn.close()
+            assert "learning_bias_summaries" in tables, "learning_bias_summaries table missing"
+            assert "learning_recommendations" in tables, "learning_recommendations table missing"
 
 
 # ─────────────────────────────────────────────────────────────────────────────
